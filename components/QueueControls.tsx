@@ -1,4 +1,4 @@
-import { Ionicons } from '@expostylesicons'
+import { Ionicons } from '@expo/vector-icons'
 import { colors } from 'constants/tokens'
 import { StyleSheet, Text, View, ViewProps } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'

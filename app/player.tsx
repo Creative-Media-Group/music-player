@@ -1,19 +1,19 @@
+import { FontAwesome } from '@expo/vector-icons'
 import { MovingText } from 'components/MovingText'
 import { PlayerControls } from 'components/PlayerControls'
 import { PlayerProgressBar } from 'components/PlayerProgressbar'
 import { PlayerRepeatToggle } from 'components/PlayerRepeatToggle'
 import { PlayerVolumeBar } from 'components/PlayerVolumeBar'
-import { usePlayerBackground } from 'hooks/usePlayerBackground'
-import { useTrackPlayerFavorite } from 'hooks/useTrackPlayerFavorite'
-import { defaultStyles, utilsStyles } from "hooks/usePlayerBackground"
-import { FontAwesome } from '@expo/vectohooks/useTrackPlayerFavorite
-import { unknownTrackImageUri } from 'constastyleses'
+import { unknownTrackImageUri } from 'constants/images'
 import { colors, fontSize, screenPadding } from 'constants/tokens'
 import { LinearGradient } from 'expo-linear-gradient'
+import { usePlayerBackground } from 'hooks/usePlayerBackground'
+import { useTrackPlayerFavorite } from 'hooks/useTrackPlayerFavorite'
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { useActiveTrack } from 'react-native-track-player'
+import { defaultStyles, utilsStyles } from 'styles'
 
 const PlayerScreen = () => {
 	const activeTrack = useActiveTrack()

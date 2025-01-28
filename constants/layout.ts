@@ -14,3 +14,5 @@ export const StackScreenWithSearchBar: NativeStackNavigationOptions = {
 	headerBlurEffect: 'prominent',
 	headerShadowVisible: false,
 }
+
+export { colors }
