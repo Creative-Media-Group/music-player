@@ -1,7 +1,7 @@
-import { defaultStyles } from '@/styles'
-import { StackScreenWithSearchBstylesm} from 'constants/layout'
+import { StackScreenWithSearchBar } from 'constants/layout'
 import { Stack } from 'expo-router'
 import { View } from 'react-native'
+import { defaultStyles } from 'styles'
 
 const SongsScreenLayout = () => {
 	return (

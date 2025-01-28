@@ -1,5 +1,5 @@
-import { FloatingPlayer } from '@/components/FloatingPlayer'
 import { FontAwesome, FontAwesome6, Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'
+import { FloatingPlayer } from 'components/FloatingPlayer'
 import { colors, fontSize } from 'constants/tokens'
 import { BlurView } from 'expo-blur'
 import { Tabs } from 'expo-router'

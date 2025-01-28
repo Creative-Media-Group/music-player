@@ -1,11 +1,11 @@
-import { TracksListItem } from '@/components/TracksListItem'
-import { useQueue } from '@/store/queue'
-import { utilsStyles } from '@/styles'
-import { unknownTrackImageUristyles'constants/images'
+import { TracksListItem } from 'components/TracksListItem'
+import { unknownTrackImageUri } from 'constants/images'
 import { useRef } from 'react'
 import { FlatList, FlatListProps, Text, View } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import TrackPlayer, { Track } from 'react-native-track-player'
+import { useQueue } from 'store/queue'
+import { utilsStyles } from 'styles'
 import { QueueControls } from './QueueControls'
 
 export type TracksListProps = Partial<FlatListProps<Track>> & {

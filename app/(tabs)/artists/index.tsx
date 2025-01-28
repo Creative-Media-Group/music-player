@@ -1,14 +1,14 @@
 import { unknownArtistImageUri } from 'constants/images'
 import { screenPadding } from 'constants/tokens'
+import { Link } from 'expo-router'
 import { artistNameFilter } from 'helpers/filter'
 import { useNavigationSearch } from 'hooks/useNavigationSearch'
-import { useArtists } from '@/store/library'
-import { defaultStyles, utilsStyles } from 'styles'
-import { Link } from 'expo-router'
 import { useMemo } from 'react'
 import { FlatList, StyleSheet, Text, TouchableHighlight, View } from 'react-native'
 import FastImage from 'react-native-fast-image'
 import { ScrollView } from 'react-native-gesture-handler'
+import { useArtists } from 'store/library'
+import { defaultStyles, utilsStyles } from 'styles'
 
 const ItemSeparatorComponent = () => {
 	return <View style={[utilsStyles.itemSeparator, { marginLeft: 50, marginVertical: 12 }]} />

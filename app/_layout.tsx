@@ -1,5 +1,5 @@
-import { useLogTrackPlayerState } from '@/hooks/useLogTrackPlayerState'
-import { useSetupTrackPlayer } from '@/hooks/useSetupTrackPlayer'
+import { useLogTrackPlayerState } from 'hooks/useLogTrackPlayerState'
+import { useSetupTrackPlayer } from 'hooks/useSetupTrackPlayer'
 import { playbackService } from 'constanhooks/useLogTrackPlayerState
 import { colors } from 'constants/tokhooks/useSetupTrackPlayer
 import { SplashScreen, Stack } from 'expo-router'

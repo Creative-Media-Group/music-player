@@ -1,8 +1,8 @@
-import { PlaylistTracksList } from '@/components/PlaylistTracksList'
-import { usePlaylists } from '@/store/library'
-import { defaultStyles } from '@/styles'
+import { PlaylistTracksList } from 'components/PlaylistTracksList'
 import { Redirect, useLocalSearchParams } from 'expo-router'
 import { ScrollView, View } from 'react-native'
+import { usePlaylists } from 'store/library'
+import { defaultStyles } from 'styles'
 import { screenPadding } from 'styless/tokens'
 
 const PlaylistScreen = () => {

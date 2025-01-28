@@ -1,8 +1,8 @@
-import { defaultStyles } from '@/styles'
 import { colors } from 'constanstyless'
 import { StackScreenWithSearchBar } from 'constants/layout'
 import { Stack } from 'expo-router'
 import { View } from 'react-native'
+import { defaultStyles } from 'styles'
 
 const ArtistsScreenLayout = () => {
 	return (

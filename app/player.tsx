@@ -1,11 +1,11 @@
-import { MovingText } from '@/components/MovingText'
-import { PlayerControls } from '@/components/PlayerControls'
-import { PlayerProgressBar } from '@/components/PlayerProgressbar'
-import { PlayerRepeatToggle } from '@/components/PlayerRepeatToggle'
-import { PlayerVolumeBar } from '@/components/PlayerVolumeBar'
-import { usePlayerBackground } from '@/hooks/usePlayerBackground'
-import { useTrackPlayerFavorite } from '@/hooks/useTrackPlayerFavorite'
-import { defaultStyles, utilsStyles }hooks/usePlayerBackground
+import { MovingText } from 'components/MovingText'
+import { PlayerControls } from 'components/PlayerControls'
+import { PlayerProgressBar } from 'components/PlayerProgressbar'
+import { PlayerRepeatToggle } from 'components/PlayerRepeatToggle'
+import { PlayerVolumeBar } from 'components/PlayerVolumeBar'
+import { usePlayerBackground } from 'hooks/usePlayerBackground'
+import { useTrackPlayerFavorite } from 'hooks/useTrackPlayerFavorite'
+import { defaultStyles, utilsStyles } from "hooks/usePlayerBackground"
 import { FontAwesome } from '@expo/vectohooks/useTrackPlayerFavorite
 import { unknownTrackImageUri } from 'constastyleses'
 import { colors, fontSize, screenPadding } from 'constants/tokens'
