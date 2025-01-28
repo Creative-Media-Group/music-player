@@ -1,5 +1,5 @@
 import { defaultStyles } from '@/styles'
-import { StackScreenWithSearchBstylesm 'constants/layout'
+import { StackScreenWithSearchBstylesm} from 'constants/layout'
 import { Stack } from 'expo-router'
 import { View } from 'react-native'
 
