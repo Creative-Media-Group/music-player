@@ -11,7 +11,7 @@ const ArtistDetailScreen = () => {
 
 	const artists = useArtists()
 
-	const artist = artists.find((artist) => artist.name === artistName)
+	const artist = artists.find((artist: { name: string }) => artist.name === artistName)
 
 	if (!artist) {
 		console.warn(`Artist ${artistName} not found!`)

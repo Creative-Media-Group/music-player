@@ -1,4 +1,5 @@
-import { colors, StackScreenWithSearchBar } from 'constants/layout'
+import { StackScreenWithSearchBar } from 'constants/layout'
+import { colors } from 'constants/tokens'
 import { Stack } from 'expo-router'
 import { View } from 'react-native'
 import { defaultStyles } from 'styles'
