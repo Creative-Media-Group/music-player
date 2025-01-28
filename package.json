@@ -8,7 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@react-native-menu/menu": "^1.2.1",
+    "@react-native-menu/menu": "^0.9.1",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.5",
     "expo-dev-client": "~5.0.10",
@@ -18,29 +18,29 @@
     "metro": "^0.81.0",
     "react": "18.3.1",
     "react-native": "0.76.6",
-    "react-native-awesome-slider": "^2.9.0",
+    "react-native-awesome-slider": "^2.5.1",
     "react-native-fast-image": "^8.6.3",
     "react-native-gesture-handler": "~2.20.2",
-    "react-native-image-colors": "^2.4.0",
+    "react-native-image-colors": "^1.3.1",
     "react-native-loader-kit": "^2.0.8",
-    "react-native-reanimated": "~3.16.7",
+    "react-native-reanimated": "~3.16.1",
     "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "~4.4.0",
     "react-native-track-player": "^4.1.1",
-    "ts-pattern": "^5.6.2",
-    "zustand": "^5.0.3"
+    "ts-pattern": "^5.0.8",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.7",
-    "@types/react": "~19.0.8",
-    "@typescript-eslint/eslint-plugin": "^8.22.0",
-    "@typescript-eslint/parser": "^8.22.0",
-    "eslint": "^9.19.0",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-hooks": "^5.1.0",
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "expo": "^52.0.28",
-    "expo-router": "^4.0.17",
-    "prettier": "^3.4.2",
-    "typescript": "^5.7.3"
+    "expo-router": "^3.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.1.3"
   }
 }
