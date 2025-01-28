@@ -1,8 +1,8 @@
-import { StackScreenWithSearchBar } from '@/constants/layout'
-import { colors } from '@/constants/tokens'
-import { defaultStyles } from '@/styles'
+import { StackScreenWithSearchBar } from 'constants/layout'
+import { colors } from 'constants/tokens'
 import { Stack } from 'expo-router'
 import { View } from 'react-native'
+import { defaultStyles } from 'styles'
 
 const PlaylistsScreenLayout = () => {
 	return (
