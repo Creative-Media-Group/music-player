@@ -1,9 +1,7 @@
-import { useLogTrackPlayerState } from 'hooks/useLogTrackPlayerState'
-import { useSetupTrackPlayer } from 'hooks/useSetupTrackPlayer'
-import { playbackService } from 'constanhooks/useLogTrackPlayerState
-import { colors } from 'constants/tokhooks/useSetupTrackPlayer
 import { SplashScreen, Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
+import { playbackService, useLogTrackPlayerState } from 'hooks/useLogTrackPlayerState'
+import { colors, useSetupTrackPlayer } from 'hooks/useSetupTrackPlayer'
 import { useCallback } from 'react'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
